@@ -37,5 +37,8 @@ gsap.fromTo("li", {
     duration: 2,
     delay: 1,
     ease: "power1.inOut",
-    stagger: 0.2
+    stagger: {
+        each: 0.2,
+        from: "random"
+    }
 })
