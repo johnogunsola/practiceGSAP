@@ -1,0 +1,38 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    margin-top: 15rem;
+    text-align: center;
+    overflow-y: hidden;
+}
+h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+p { 
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    overflow-y: hidden;
+}
+li {
+    list-style: none;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
